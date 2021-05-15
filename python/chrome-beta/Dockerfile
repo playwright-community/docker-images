@@ -17,6 +17,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt install ./google-chrome-beta_current_amd6
 RUN pip install pip -U && \ 
     pip install playwright
 
-RUN DEBIAN_FRONTEND=noninteractive playwright install-deps
+RUN DEBIAN_FRONTEND=noninteractive playwright install-deps chromium
 
 RUN playwright install ffmpeg
