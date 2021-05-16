@@ -1,1 +1,1 @@
-# Docker images for Playwright for Stable Browsers.
+## Docker Images for Playwright for Chrome Channels
